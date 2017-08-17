@@ -1,4 +1,4 @@
-    # DAY 3 #
+## Course Folders and Files Creator ##
 
 week = 2
 
