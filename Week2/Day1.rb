@@ -41,7 +41,6 @@ git checkout main.rb -- Grab file out of commit and replace it with what it used
 git reset --hard HEAD -- Reset the entire staging area
 
 
-
         VIM
 
 Command Mode
