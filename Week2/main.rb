@@ -14,7 +14,7 @@ def menu
   case choice
     when 1
       puts 'Enter a git command'.colorize(:green)
-      puts_git(gets.strip)
+      Git.git_cmd(gets.strip)
       menu
     when 2
       puts `git add .`
