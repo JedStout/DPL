@@ -27,3 +27,17 @@ git log
 
 
 
+        VIM
+
+Command Mode
+
+wq is a write and quit
+
+Insert Mode
+i puts vim into insert mode
+
+press esc to exit insert Mode
+
+Visual Block Mode
+
+
