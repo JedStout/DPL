@@ -44,6 +44,12 @@ git commit --amend  ---Opens vim
 
 ####______#####******* NEVER COMMIT IN A REBASE ********#######________######
 
+Git Branches
+
+git branch -- displays branches 
+
+
+
         VIM
 
 Command Mode
