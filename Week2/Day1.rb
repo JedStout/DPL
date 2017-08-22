@@ -28,6 +28,18 @@ git log
 
 git log --oneline
 
+git add . 
+
+git status
+
+-- To unstage --
+
+git reset HEAD main.rb   -- Moving it unchanged out of staging
+
+git checkout main.rb -- Grab file out of commit and replace it with what it used to be, changes will be lost
+
+git reset --hard HEAD -- Reset the entire staging area
+
 
 
         VIM

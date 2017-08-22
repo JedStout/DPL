@@ -6,10 +6,10 @@ def puts_git(cmd)
 end
 
 def menu
-  puts 'Main MENU'.colorize(:cyan)
+  puts 'Main MENU'.colorize(:yellow)
   puts '1 Enter Git Command'.colorize(:cyan)
-  puts '2 Exit'.colorize(:cyan)
-  puts '3 Run that shiz'.colorize(:cyan)
+  puts '2 Run that shiz'.colorize(:cyan)
+  puts '3 Exit'.colorize(:cyan)
   choice = gets.to_i
   case choice
     when 1
