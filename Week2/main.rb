@@ -23,6 +23,7 @@ def menu
       puts `clear`
       menu
     when 3
+      puts `clear`
       exit
     else
       puts 'Inavlid Choice'.colorize(:red)
