@@ -2,15 +2,17 @@ require_relative 'User'  # app calls both user and store
 require_relative 'Save_N_Stuff'
 
 class ShoppingApp
-    attr_accessor :name, :wallet_amt, :dollarz, :cart
+    attr_accessor :user
 
   def initialize
 
+
+  def menu
     while true
       puts """
         1: Shop
         2: View My Cart
-        3: Exit
+        3: Leave the store
       """
       menu_option = gets.strip.to_i
       case menu_option
@@ -33,3 +35,5 @@ class ShoppingApp
   end
 
 end
+
+ShoppingApp.new

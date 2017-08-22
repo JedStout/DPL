@@ -4,10 +4,13 @@ class Save_N_Stuff
     attr_accessor :name, :weight, :price, :inventory
 
     def store
-        [['Carrots', 2.50, 'Per Bag', 20], 
-        ['Apples', 3.99, 'Per Apple', 10], 
-        ['Spinach', 1.50, 'Per Bundle', 30]].each_with_index do |item, i |
-        puts "#{i} => #{item[0]} <= Priced at #{item[1]} #{item[2]}"
+        saveNstuff = [{id: 1, name: 'Apple', price: '2.99', condition: 'Per Lb', inventory: 20},   
+              {id: 2, name: 'Carrots', price: '2.50', condition: 'Per Bag', inventory: 10},
+              {id: 3, name: 'Spinach', price: '1.50', condition: 'Per Bundle', inventory: 30},
+              {id: 4, name: 'Avocado', price: '0.99', condition: 'Each', inventory: 1}]
+
+        saveNstuff.each do |item|
+            puts "#{item[:id]} = #{item[:name]} <> At $#{item[:price]} #{item[:condition]} <> #{item[:inventory]} Remaining"
     end
 
     def sell_item(item)
