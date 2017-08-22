@@ -42,6 +42,8 @@ git reset --hard HEAD -- Reset the entire staging area
 
 git commit --amend  ---Opens vim
 
+####______#####******* NEVER COMMIT IN A REBASE ********#######________######
+
         VIM
 
 Command Mode
