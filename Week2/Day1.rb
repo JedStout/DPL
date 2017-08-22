@@ -31,7 +31,7 @@ git log
 
 Command Mode
 
-wq is a write and quit
+:wq is a write and quit
 
 Insert Mode
 i puts vim into insert mode
