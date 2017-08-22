@@ -17,13 +17,13 @@ def menu
       puts_git(gets.strip)
       menu
     when 2
-      exit
-    when 3
       puts `git add .`
       puts `git commit -m 'Additional saves'`
       puts `git push origin master`
       puts `clear`
       menu
+    when 3
+      exit
     else
       puts 'Inavlid Choice'.colorize(:red)
       menu
