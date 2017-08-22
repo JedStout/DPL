@@ -50,7 +50,6 @@ git branch -- displays branches
 
 
 ## -- MIT and BSD licenses are open source licenses -- ##
-
         VIM
 
 Command Mode
