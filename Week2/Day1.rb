@@ -23,7 +23,10 @@ git push origin master
 
 
 Additional Commands
+
 git log
+
+git log --oneline
 
 
 
